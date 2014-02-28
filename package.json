@@ -1,0 +1,22 @@
+{
+  "name": "easymongoosedb",
+  "version": "0.0.1",
+  "description": "Easily setup a mongo database connection using Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter spec -t 0"
+  },
+  "repository": "",
+  "author": "Nathan Oehlman",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.1.22",
+    "debug": "~0.7.2",
+    "lodash": "~2.4.1",
+    "mongoose": "~3.6.15",
+    "mongoose-pagination": "~1.0.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1"
+  }
+}
