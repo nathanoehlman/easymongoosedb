@@ -1,6 +1,6 @@
 {
   "name": "easymongoosedb",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Easily setup a mongo database connection using Mongoose",
   "main": "index.js",
   "scripts": {

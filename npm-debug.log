@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /Volumes/development/projects/NathanOehlman/easymongoosedb/package.json
+6 warn package.json easymongoosedb@0.0.1 No README.md file found!
+7 verbose cache add [ '.', null ]
+8 silly cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /Users/neo/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz
+15 verbose folder .
+16 info prepublish easymongoosedb@0.0.1
+17 silly lockFile 7c5246d2-18277-0-6835681446827948-tmp-tgz /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz
+18 verbose lock /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz /Users/neo/.npm/7c5246d2-18277-0-6835681446827948-tmp-tgz.lock
+19 silly lockFile 7c5246d2-18277-0-6835681446827948-tmp-tgz /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz
+20 verbose tar unpack /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/tmp.tgz
+21 silly lockFile a8329cc1-18277-0-6835681446827948-package /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package
+22 verbose lock /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package /Users/neo/.npm/a8329cc1-18277-0-6835681446827948-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm extractEntry .npmignore
+26 silly gunzTarPerm extractEntry README.md
+27 silly gunzTarPerm extractEntry index.js
+28 silly gunzTarPerm extractEntry lib/database.js
+29 silly gunzTarPerm extractEntry test/db_test.js
+30 silly gunzTarPerm extractEntry test/schemas/book.js
+31 silly gunzTarPerm extractEntry test/schemas/user.js
+32 verbose read json /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package/package.json
+33 silly lockFile a8329cc1-18277-0-6835681446827948-package /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package
+34 verbose from cache /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package/package.json
+35 verbose tar pack [ '/Users/neo/.npm/easymongoosedb/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package' ]
+36 verbose tarball /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz
+37 verbose folder /var/folders/03/nqjwk8d14gs99ynlqs53c7m40000gs/T/npm-30668/1393601818277-0.6835681446827948/package
+38 silly lockFile eb6bab62-easymongoosedb-0-0-1-package-tgz /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz
+39 verbose lock /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz /Users/neo/.npm/eb6bab62-easymongoosedb-0-0-1-package-tgz.lock
+40 silly lockFile eb6bab62-easymongoosedb-0-0-1-package-tgz /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz
+41 silly lockFile 50c6eb15-npm-easymongoosedb-0-0-1-package /Users/neo/.npm/easymongoosedb/0.0.1/package
+42 verbose lock /Users/neo/.npm/easymongoosedb/0.0.1/package /Users/neo/.npm/50c6eb15-npm-easymongoosedb-0-0-1-package.lock
+43 silly lockFile 50c6eb15-npm-easymongoosedb-0-0-1-package /Users/neo/.npm/easymongoosedb/0.0.1/package
+44 verbose tar unpack /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz
+45 silly lockFile 50c6eb15-npm-easymongoosedb-0-0-1-package /Users/neo/.npm/easymongoosedb/0.0.1/package
+46 verbose lock /Users/neo/.npm/easymongoosedb/0.0.1/package /Users/neo/.npm/50c6eb15-npm-easymongoosedb-0-0-1-package.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry index.js
+52 silly gunzTarPerm extractEntry lib/database.js
+53 silly gunzTarPerm extractEntry test/db_test.js
+54 silly gunzTarPerm extractEntry test/schemas/book.js
+55 silly gunzTarPerm extractEntry test/schemas/user.js
+56 verbose read json /Users/neo/.npm/easymongoosedb/0.0.1/package/package.json
+57 silly lockFile 50c6eb15-npm-easymongoosedb-0-0-1-package /Users/neo/.npm/easymongoosedb/0.0.1/package
+58 silly shasum updated bytes 3285
+59 info shasum db6f668a56fb12bb7f64f0384e191896fc1b66d6
+59 info shasum /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz
+60 verbose from cache /Users/neo/.npm/easymongoosedb/0.0.1/package/package.json
+61 verbose chmod /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz 644
+62 verbose chown /Users/neo/.npm/easymongoosedb/0.0.1/package.tgz [ 505, 20 ]
+63 silly lockFile 3a52ce78- .
+64 silly publish { name: 'easymongoosedb',
+64 silly publish   version: '0.0.1',
+64 silly publish   description: 'Easily setup a mongo database connection using Mongoose',
+64 silly publish   main: 'index.js',
+64 silly publish   scripts: { test: 'mocha test --reporter spec -t 0' },
+64 silly publish   repository: '',
+64 silly publish   author: { name: 'Nathan Oehlman' },
+64 silly publish   license: 'MIT',
+64 silly publish   dependencies:
+64 silly publish    { async: '~0.1.22',
+64 silly publish      debug: '~0.7.2',
+64 silly publish      lodash: '~2.4.1',
+64 silly publish      mongoose: '~3.6.15',
+64 silly publish      'mongoose-pagination': '~1.0.0' },
+64 silly publish   devDependencies: { chai: '~1.8.1' },
+64 silly publish   readme: 'ERROR: No README.md file found!',
+64 silly publish   _id: 'easymongoosedb@0.0.1',
+64 silly publish   dist: { shasum: 'db6f668a56fb12bb7f64f0384e191896fc1b66d6' } }
+65 verbose url raw easymongoosedb
+66 verbose url resolving [ 'https://registry.npmjs.org/', './easymongoosedb' ]
+67 verbose url resolved https://registry.npmjs.org/easymongoosedb
+68 error publish Failed PUT response undefined
+69 error Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN
+69 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:525:26)
+69 error     at ClientRequest.g (events.js:192:14)
+69 error     at ClientRequest.EventEmitter.emit (events.js:96:17)
+69 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1462:7)
+69 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+69 error     at CleartextStream.socketOnData [as ondata] (http.js:1367:20)
+69 error     at CleartextStream.CryptoStream._push (tls.js:526:27)
+69 error     at SecurePair.cycle (tls.js:880:20)
+69 error     at EncryptedStream.CryptoStream.write (tls.js:267:13)
+69 error     at Socket.ondata (stream.js:38:26)
+70 error If you need help, you may report this log at:
+70 error     <http://github.com/isaacs/npm/issues>
+70 error or email it to:
+70 error     <npm-@googlegroups.com>
+71 error System Darwin 11.4.2
+72 error command "node" "/usr/local/bin/npm" "publish"
+73 error cwd /Volumes/development/projects/NathanOehlman/easymongoosedb
+74 error node -v v0.8.16
+75 error npm -v 1.1.63
+76 verbose exit [ 1, true ]
